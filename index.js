@@ -49,7 +49,9 @@
         let AverageText = document.getElementById('AverageText');
         AverageText.textContent = Evaluation;
 
-        console.log("Name: " + Fullname + "\n" + "Course: " + CourseANDYear + "\n" + Subject1 + ":" + Subject1Grade + "\n" + Subject2 + ":" + Subject2Grade + "\n" + Subject3 + ":" + Subject3Grade + "\n" + Subject4 + ":" + Subject4Grade + "\n" + Subject5 + ":" + Subject5Grade + "\n" + "Average: " + Evaluation); 
+        console.log("Name: " + Fullname + "\n" + "Course: " + CourseANDYear + "\n" + Subject1 + ":" + Subject1Grade + "\n" + Subject2 + ":" + Subject2Grade + "\n" + Subject3 + ":" + Subject3Grade + "\n" + Subject4 + ":" + Subject4Grade + "\n" + Subject5 + ":" + Subject5Grade + "\n" + "Average: " + Evaluation);
+        
+        alert("Name: " + Fullname + "\n" + "Course: " + CourseANDYear + "\n" + Subject1 + ":" + Subject1Grade + "\n" + Subject2 + ":" + Subject2Grade + "\n" + Subject3 + ":" + Subject3Grade + "\n" + Subject4 + ":" + Subject4Grade + "\n" + Subject5 + ":" + Subject5Grade + "\n" + "Average: " + Evaluation); 
     }
 
 
