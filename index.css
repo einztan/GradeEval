@@ -1,0 +1,64 @@
+/* 
+    ( Palettes ) 
+    fonts: inter, medula-one, sans 
+    colors: 
+      red - #A63B3B 
+      white - #FFFFFF 
+      silver - #CFCFCF 
+      dark grey - #727070 
+      hollow grey - #161313 
+      hollow black - #0C0B0B 
+      black - #000000 
+*/ 
+    body{ background-color: #161313 ; display: flex; justify-content: center; } 
+    *{ margin: 0px; padding: 0px; } 
+
+    @font-face {
+        font-family: medula-one;
+        src: url(/medula-one.ttf);
+    }
+
+    .Container{ border: 1px solid inherit; border-radius: 0px 0px 0px 0px; margin-top: 92px; width: auto; height: 400px; display: flex; }
+    
+    .Container .ProfileSide{ background-color: white; border-radius: 14px 0px 0px 14px; width: 200px; height: inherit; }
+    .Container .ProfileSide .Profile-Image{ border: 2px solid #727070; background-color: #CFCFCF; border-radius: 100px; margin-left: 42px; margin-top: 42px; width: 100px; height: 100px; display: flex; justify-content: center; }
+    .Container .ProfileSide .Profile-Image img{ width: 50%; height: 50%; align-self: center;}
+    .Container .ProfileSide button{ outline-style: none; border: 1px solid #727070; border-radius: 24px; position: absolute; margin-left: 116px; margin-top: -30px; width: 24px; height: 24px; display: flex; justify-content: center; }
+    .Container .ProfileSide button img{ width: 60%; align-self: center; }
+    .Container .ProfileSide .FullNameContainer{ border: 1px solid inherit; margin-top: 16px; height: 24px; display: flex; justify-content: center; gap: 12px; }
+    .Container .ProfileSide .FullNameContainer input{ outline-style: none; border: none; border-bottom: 1px solid #727070; width: 64px; }
+    .Container .ProfileSide .FullNameContainer{ color: #727070; }
+    .Container .ProfileSide .StudentCourseYear{ outline-style: none; border: none; border-bottom: 1px solid #727070; margin-left: 20px; margin-top: 24px; width: 157px; } 
+    .Container .ProfileSide .AverageContainer{ border: 1px solid #727070; margin-left: 20px; margin-top: 24px; width: 157px; display: flex; justify-content: center; font-family: medula-one; padding-top: 5px; padding-bottom: 5px; }
+    .Container .ProfileSide .AverageContainer span{ color: #727070; }
+
+    .Container .EvaluationPanel{ background-color: #CFCFCF; width: 16px; height: inherit;}
+    .Container .EvaluationPanel .content{ opacity: 0%; border: 1px solid inherit; height: 395px; }
+    
+    .Container .EvaluationPanel .content .Logo{ border: 1px solid inherit; width: inherit; height: 82px; display: flex; justify-content: center; }
+    .Container .EvaluationPanel .content .Logo img{ margin-top: 24px; width: 64px; height: 64px; }
+
+    .Container .EvaluationPanel .content .SUB1Input{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; margin-left: 12px; width: 124px; }
+    .Container .EvaluationPanel .content .SUB1GrInput{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; width: 42px; }
+
+    .Container .EvaluationPanel .content .SUB2Input{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; margin-left: 12px; width: 124px; }
+    .Container .EvaluationPanel .content .SUB2GrInput{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; width: 42px; }
+
+    .Container .EvaluationPanel .content .SUB3Input{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; margin-left: 12px; width: 124px; }
+    .Container .EvaluationPanel .content .SUB3GrInput{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; width: 42px; }
+
+    .Container .EvaluationPanel .content .SUB4Input{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; margin-left: 12px; width: 124px; }
+    .Container .EvaluationPanel .content .SUB4GrInput{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; width: 42px; }
+
+    .Container .EvaluationPanel .content .SUB5Input{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; margin-left: 12px; width: 124px; }
+    .Container .EvaluationPanel .content .SUB5GrInput{ outline-style: none; border: none; border-bottom: 1px solid #727070; background-color: inherit; width: 42px; }
+
+    .Container .EvaluationPanel .content button{ border: 1px solid #A63B3B; background-color: #A63B3B; color: white; margin-left: 40px; margin-top: 32px; padding-left: 32px; padding-right: 32px; padding-top: 8px; padding-bottom: 8px; }
+
+    .Container .SideBar{border-radius: 0px 14px 14px 0px; background-color: white; width: 32px; height: inherit; }
+    .Container .SideBar button{ cursor: pointer; border: 1px solid white; background-color: white; margin-left: 4px; margin-top: 182px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 2px; }
+    .Container .SideBar button img{ width: 12px; }
+
+    @media (max-width: 492px) { 
+        body{ overflow-x:hidden; } 
+    }
