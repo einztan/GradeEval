@@ -1,32 +1,6 @@
 
 
     //    todo: activity 1
-
-        // function call
-        function DisplayText(){
-            console.log("Java");
-        }
-        DisplayText();
-
-        // syntax
-        let a = "1";
-        let b = 2;
-            if( a < b && a > b ){
-                console.log( "statement: " + true);
-            }else{
-                console.log("Statement: " + false);
-            }
-
-        // const
-        const c = 1;
-        const d = 2;
-        const Total = c + d;
-        console.log("Total: " + Total );
-
-        // var
-        var Text = "John Doe";
-        console.log(Text);
-
         function Average(){
             let name = document.getElementById('name').value;
             let IP1 = document.getElementById('IP1').value;
