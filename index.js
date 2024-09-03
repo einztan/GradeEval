@@ -94,8 +94,8 @@
     function ClickedStateSideBar(){
         click += 1;
 
-        DefaultState = "/Icons/menuBlack.png";
-        ClickedState = "/Icons/menuRed.png";
+        DefaultState = "Icons/menuBlack.png";
+        ClickedState = "Icons/menuRed.png";
 
         if(click === 1){
             console.log(click);
